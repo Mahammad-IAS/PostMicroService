@@ -14,6 +14,7 @@ import javax.annotation.PostConstruct;
 
 @RestController
 @RequestMapping("/api/posts")
+
 public class PostController {
     private static final Logger logger = LoggerFactory.getLogger(PostController.class);
     
